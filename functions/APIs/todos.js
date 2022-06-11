@@ -13,6 +13,7 @@ exports.getAllTodos = (request, response) => {
                     title: doc.data().title,
                     body: doc.data().body,
                     createdAt: doc.data().createdAt,
+                    additionalField: doc.data().title
                 });
             });
             return response.json(todos);
