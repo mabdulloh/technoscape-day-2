@@ -11,7 +11,7 @@ name: Deploy
       - main
 
 jobs:
-  #this workfloe has only one job
+  #this workflow has only one job
   deploy_to_production:
     runs-on: ubuntu-latest
     steps:
